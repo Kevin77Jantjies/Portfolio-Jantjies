@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+        
+    <head>
+        <title>Kevin Jantjies</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://www.google.com/recaptcha/api.js?render=_reCAPTCHA_site_key"></script>
+    </head>
+
+    <body>
+        <header>
+     
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="contact.html">Contact</a>
+            </ul>
+        </header>
+
+  <div style="text-align:center">
+    <h2>Contact Me</h2>
+    <p>Just take a look, or leave us a message:</p>
+    <p>I will get back to you soon.</p>
+    <p>Or you can give me a call</p>
+    <p>072 884 4132/ 071 086 9697</p>
+    <p>Email:kevinjantjiesboboshanti@gmail.com</p>
+  </div>
+  <div class="row">
+    <div class="column">
+    
+    </div>
+    <div class="column">
+      <form  id="contactForm">
+        <form id="contactForm" method="post" action="">
+          <input name="name" id="name" type="text" class="form-control" placeholder="Your Name" required id="name"><br>
+          <input name="email" id="email" type="email" class="form-control" placeholder="Your Email" required id="email"><br>
+          <textarea name="message" id="message" class="form-control" placeholder="Message" row="4" required id="message"></textarea><br>
+
+          <div class="g-recaptcha" data-sitekey="6LeCIdgUAAAAAELrMLVZOD71fTlwlL5CQYa3wVX7"></div>
+          <input type="submit" class="form-control submit" value="SEND MESSAGE">
+          </form>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
